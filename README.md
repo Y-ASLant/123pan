@@ -26,7 +26,7 @@ $dp = new d123pan;
 //$dp->cache_time=60;//设置缓存时间
 $res=$dp->getUrl($url,$pwd);
 ```
-#### 示例	
+# 示例	
  直接下载：
 
 - 不带提取码:
@@ -54,18 +54,8 @@ http://tool.bitefu.net/123pan/?url=https://www.123pan.com/s/poqA-WFWG3.html&pwd=
 
 http://tool.bitefu.net/123pan/?url=poqA-WFWG3&pwd=6cUF
 
-##### 简网址
+#### 简网址
 
 - 不带提取码:http://tool.bitefu.net/123pan/?d=poqA-CFWG3
 
 - 带提取码:http://tool.bitefu.net/123pan/?d=poqA-WFWG3_6cUF
-
-
-#### 捐助我
-
-捐助列表:http://tool.bitefu.net/pay/
-
-<a href="http://tool.bitefu.net/pay/alipayred.jpg" target="_blank"><img height="300" src="https://oscimg.oschina.net/oscnet/69e93259cb3fa4f12a2c4e96dfc65984fb9.jpg" width="200" /></a> <a href="http://tool.bitefu.net/pay/wxpay.png" target="_blank"><img height="274" src="https://oscimg.oschina.net/oscnet/1118495c283edf13318ed999c1ad23c1614.jpg" width="200" /></a> <a href="http://tool.bitefu.net/pay/alipay.jpg" target="_blank"><img height="272" src="https://oscimg.oschina.net/oscnet/1adfcc1bdf40d6cf35bcc80f94678d52e98.jpg" width="200" /></a>
-
-#### 参与贡献
-参考开源项目:https://gitee.com/web/lanzou
