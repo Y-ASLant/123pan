@@ -26,8 +26,13 @@ $dp = new d123pan;
 //$dp->cache_time=60;//设置缓存时间
 $res=$dp->getUrl($url,$pwd);
 ```
+> 注意：`cache`必须给777权限（可写）
+
 # 使用示例	
- 直接下载：
+
+> 直接下载
+
+#### 完整链接
 
 - 不带提取码:
 
@@ -40,7 +45,13 @@ http://tool.bitefu.net/123pan/?url=https://www.123pan.com/s/poqA-WFWG3.html&type
 
 http://tool.bitefu.net/123pan/?url=poqA-WFWG3&type=down&pwd=6cUF
 
-输出直链：
+#### 短链接
+
+- 不带提取码:http://tool.bitefu.net/123pan/?d=poqA-CFWG3
+
+- 带提取码:http://tool.bitefu.net/123pan/?d=poqA-WFWG3_6cUF
+
+> 输出直链
 
 - 不带提取码:
 
@@ -53,12 +64,6 @@ http://tool.bitefu.net/123pan/?url=poqA-WFWG3
 http://tool.bitefu.net/123pan/?url=https://www.123pan.com/s/poqA-WFWG3.html&pwd=6cUF
 
 http://tool.bitefu.net/123pan/?url=poqA-WFWG3&pwd=6cUF
-
-#### 简网址
-
-- 不带提取码:http://tool.bitefu.net/123pan/?d=poqA-CFWG3
-
-- 带提取码:http://tool.bitefu.net/123pan/?d=poqA-WFWG3_6cUF
 
 
 #### 捐助我
