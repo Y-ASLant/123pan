@@ -1,7 +1,7 @@
 <?php
 class d123pan{
     private $UserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36';
-    protected $cachepath='cache/';//缓存目录
+    protected $cachepath='cache/';//缓存目录 m
     public $cache_time= 60;//缓存时间 0 为不缓存
     public function getUrl($url,$pwd=''){
         $return =array('status'=>0,'info'=>'');
